@@ -1,1 +1,1 @@
-# dot_files
+# main linux configuration files
