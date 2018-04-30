@@ -1,4 +1,6 @@
 set nocompatible
+set relativenumber
+set number
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
@@ -15,6 +17,10 @@ Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'nvie/vim-flake8'
+Plugin 'scrooloose/nerdtree'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-surround'
+Plugin 'itchyny/lightline.vim'
 
 " Plugin 'chriskempson/base16.vim'
 
