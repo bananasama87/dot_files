@@ -9,12 +9,14 @@ URxvt.iso14755: false
 URxvt.iso14755_52: false
 
 ! font
-URxvt.font: xft:Fantasque Sans Mono:size=11:antialias=true
-URxvt.boldFont: xft:Fantasque Sans Mono:bold:size=11:antialias=true
+!URxvt.font: xft:Fantasque Sans Mono:size=11:antialias=true
+!URxvt.boldFont: xft:Fantasque Sans Mono:bold:size=11:antialias=true
+URxvt.font: xft:Source Code Pro for Powerline:size=12
+URxvt.boldFont: xft: Source Code Pro for Powerline:bold:size=12
 URxvt.letterSpace: -1
 
 ! terminal padding
-URxvt.internalBorder: 25
+! URxvt.internalBorder: 25
 
 ! uncomment for transparent terminal if you are ready to be made fun of in #rice
 ! URxvt.transparent:	true
@@ -27,6 +29,9 @@ Xft.hintstyle:  hintfull
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
+! High DPI monitor setting
+Xft.dpi: 142
+
 
 ! clickable links, clipboard support, mouse wheel support, and on the fly font resizing
 ! you will need to install the relevent perl extensions for these to work

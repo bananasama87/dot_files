@@ -5,12 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# user aliases
 alias ls='ls --color=auto'
 alias ll='ls -al'
 alias vi='vim'
-alias python='python3'
+alias pdf=zathura
 
-#Below is vanilla PS1
-#PS1='[\u@\h \W]\$ '
-
-PS1="\u{\W} > \[$(tput sgr0)\]"
+PS1='[\u@\h \W]\$ '
